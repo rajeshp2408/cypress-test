@@ -16,7 +16,9 @@ Login
 Notes
 - Create a note - set note title and body. Make sure that the note just created is displayed in the Notes list.
 - Create a note, log out, log in again and make sure that the note is still saved in the Notes list.
-
+# Run test:
+Login - LoginPageTest.js
+Note - CreateNoteTest.js
 
 ## Task 2 – RESTful API tests
 Using same Cypress project in Task 1, for this section use the provided API at https://reqres.in/ for all tests. All request payloads and responses are in JSON format.
